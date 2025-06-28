@@ -1,0 +1,661 @@
+.gradient-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 900px;
+}
+.aeps1 {
+  	position: relative;
+  	line-height: 24px;
+}
+.container5 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.container4 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 0px 15px;
+  	box-sizing: border-box;
+  	max-width: 663.75px;
+}
+.container3 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	padding: 0px 3.8px;
+}
+.backgroundshadow {
+  	align-self: stretch;
+  	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.3);
+  	border-radius: 3.75px;
+  	background-color: #38c4e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 7.5px 0px;
+}
+.border {
+  	width: 16px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 4.25px;
+  	left: 4px;
+  	border-radius: 8px;
+  	border: 2px solid #5a5a5a;
+  	box-sizing: border-box;
+  	height: 16px;
+  	z-index: 0;
+}
+.aeps-silver {
+  	position: relative;
+  	line-height: 26px;
+  	font-weight: 500;
+  	z-index: 1;
+}
+.container6 {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 0px 0px 0px 26px;
+  	position: relative;
+}
+.label {
+  	position: absolute;
+  	top: 44.75px;
+  	left: 191.63px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: center;
+}
+.label1 {
+  	position: absolute;
+  	top: 44.75px;
+  	left: 312.77px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: center;
+}
+.text {
+  	position: relative;
+  	line-height: 19.69px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+}
+.component-1 {
+  	border-radius: 3px;
+  	background-color: #38c4e7;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 3.8px 7.5px;
+}
+.container8 {
+  	position: absolute;
+  	width: 100%;
+  	top: 73.75px;
+  	right: 0px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 15px 0px 0px;
+  	box-sizing: border-box;
+  	font-size: 13.1px;
+  	color: #fff;
+}
+.form {
+  	width: 618.8px;
+  	position: relative;
+  	border-radius: 20px;
+  	background: linear-gradient(75.42deg, rgba(158, 226, 255, 0.43) 60%, rgba(158, 226, 255, 0));
+  	height: 160.9px;
+  	text-align: center;
+  	font-size: 15px;
+  	color: #000;
+}
+.background {
+  	align-self: stretch;
+  	flex: 1;
+  	border-radius: 3.75px;
+  	background-color: #f3f3f3;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 67.5px;
+  	max-width: 663.75px;
+}
+.vector-icon {
+  	position: absolute;
+  	height: 31.25%;
+  	width: 100%;
+  	top: 61.87%;
+  	right: 0%;
+  	bottom: 6.88%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.vector-icon1 {
+  	position: absolute;
+  	height: 68.75%;
+  	width: 43.75%;
+  	top: 6.25%;
+  	right: 28.13%;
+  	bottom: 25%;
+  	left: 28.12%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.component-2 {
+  	position: absolute;
+  	top: 11.59px;
+  	left: 46.05px;
+  	width: 16px;
+  	height: 16px;
+}
+.text1 {
+  	position: absolute;
+  	top: 3.5px;
+  	left: calc(50% - 33.6px);
+  	line-height: 30px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 83.5px;
+  	height: 30px;
+}
+.component-3 {
+  	align-self: stretch;
+  	position: relative;
+  	border-radius: 3.75px;
+  	background-color: #38c4e7;
+  	height: 37.5px;
+}
+.container11 {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 15px;
+  	box-sizing: border-box;
+  	max-width: 221.25px;
+}
+.component-21 {
+  	position: absolute;
+  	top: 11.59px;
+  	left: 44.48px;
+  	width: 16px;
+  	height: 16px;
+}
+.text2 {
+  	position: absolute;
+  	top: 3.5px;
+  	left: calc(50% - 35.17px);
+  	line-height: 30px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 86.6px;
+  	height: 30px;
+}
+.component-22 {
+  	position: absolute;
+  	top: 11.59px;
+  	left: 59.81px;
+  	width: 16px;
+  	height: 16px;
+}
+.text3 {
+  	position: absolute;
+  	top: 3.5px;
+  	left: calc(50% - 19.84px);
+  	line-height: 30px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 56px;
+  	height: 30px;
+}
+.container10 {
+  	width: 663.8px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	gap: 0px;
+}
+.component-23 {
+  	position: absolute;
+  	top: 11.59px;
+  	left: 31.09px;
+  	width: 16px;
+  	height: 16px;
+}
+.text4 {
+  	position: absolute;
+  	top: 3.5px;
+  	left: calc(50% - 48.56px);
+  	line-height: 30px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 113.4px;
+  	height: 30px;
+}
+.component-24 {
+  	position: absolute;
+  	top: 11.59px;
+  	left: 48.03px;
+  	width: 16px;
+  	height: 16px;
+}
+.text5 {
+  	position: absolute;
+  	top: 3.5px;
+  	left: calc(50% - 31.62px);
+  	line-height: 30px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 79.5px;
+  	height: 30px;
+}
+.component-25 {
+  	position: absolute;
+  	top: 11.59px;
+  	left: 35.94px;
+  	width: 16px;
+  	height: 16px;
+}
+.text6 {
+  	position: absolute;
+  	top: 3.5px;
+  	left: calc(50% - 43.71px);
+  	line-height: 30px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 103.7px;
+  	height: 30px;
+}
+.aeps-banner-2jpg-icon {
+  	width: 633.8px;
+  	position: relative;
+  	border-radius: 3.75px;
+  	height: 316.9px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+  	max-width: 663.75px;
+}
+.container9 {
+  	align-self: stretch;
+  	flex: 0.9548;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 0px 15px;
+  	box-sizing: border-box;
+  	gap: 7.5px;
+  	max-width: 663.75px;
+  	text-align: center;
+  	font-size: 15px;
+  	color: #222;
+}
+.container2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	gap: 0px;
+}
+.container1 {
+  	width: 1327.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	max-width: 1342.5px;
+}
+.tabpanel {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 0px 7.5px;
+}
+.container {
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 15px;
+  	box-sizing: border-box;
+  	max-width: 1402.5px;
+}
+.container-wrapper {
+  	position: absolute;
+  	top: 237px;
+  	left: 24px;
+  	width: 1392.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	box-sizing: border-box;
+}
+.logo-hpaypng-icon {
+  	width: 130.8px;
+  	position: relative;
+  	height: 50px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.component-26 {
+  	position: absolute;
+  	width: calc(100% - 1294.2px);
+  	top: 0px;
+  	right: 1279.2px;
+  	left: 15px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 3.8px 7.5px;
+  	box-sizing: border-box;
+}
+.welcome {
+  	position: absolute;
+  	top: 10.75px;
+  	left: 15px;
+  	line-height: 18px;
+  	color: #6c757d;
+  	display: flex;
+  	align-items: center;
+  	width: 59.8px;
+  	height: 18px;
+}
+.abhinav-mishra {
+  	position: absolute;
+  	top: 10.75px;
+  	left: 78px;
+  	line-height: 18px;
+  	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	width: 96.3px;
+  	height: 18px;
+}
+.epwr000019-hpay {
+  	position: absolute;
+  	top: 28.75px;
+  	left: 15px;
+  	line-height: 18px;
+  	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	width: 121.9px;
+  	height: 18px;
+}
+.link {
+  	position: absolute;
+  	width: calc(100% - 1251px);
+  	top: 4px;
+  	right: 45px;
+  	left: 1206px;
+  	height: 60px;
+  	font-size: 12px;
+}
+.item {
+  	width: 46px;
+  	height: 23px;
+}
+.paymentspng-icon {
+  	position: absolute;
+  	top: 8.34px;
+  	left: 11.25px;
+  	width: 24px;
+  	height: 23px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.text7 {
+  	position: absolute;
+  	top: 7.25px;
+  	left: 39px;
+  	line-height: 22.5px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 81.1px;
+  	height: 23px;
+}
+.component-8 {
+  	width: 131.1px;
+  	position: relative;
+  	height: 38.8px;
+}
+.rechargepng-icon {
+  	position: absolute;
+  	top: 7.5px;
+  	left: 11.25px;
+  	width: 30px;
+  	height: 30px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.text8 {
+  	position: absolute;
+  	top: 9.91px;
+  	left: 45px;
+  	line-height: 22.5px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 77.4px;
+  	height: 23px;
+}
+.component-81 {
+  	width: 133.3px;
+  	position: relative;
+  	height: 45px;
+}
+.wallettransferpng-icon {
+  	width: 24px;
+  	position: relative;
+  	height: 25px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.text9 {
+  	position: relative;
+  	line-height: 22.5px;
+  	font-weight: 600;
+}
+.component-82 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 7.5px 11.3px;
+  	gap: 3.8px;
+}
+.creditcardpng-icon {
+  	position: absolute;
+  	top: 7.84px;
+  	left: 11.25px;
+  	width: 24px;
+  	height: 24px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.text11 {
+  	position: absolute;
+  	top: 7.25px;
+  	left: 39px;
+  	line-height: 22.5px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 89.9px;
+  	height: 23px;
+}
+.component-84 {
+  	width: 139.8px;
+  	position: relative;
+  	height: 39.3px;
+}
+.list {
+  	position: absolute;
+  	top: 8px;
+  	left: 117px;
+  	width: 874.9px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.vector-icon12 {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.component-36 {
+  	width: 24px;
+  	position: relative;
+  	height: 24px;
+}
+.b {
+  	position: relative;
+  	line-height: 22.5px;
+}
+.link1 {
+  	position: absolute;
+  	top: 3px;
+  	left: 1395px;
+  	width: 34px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 7.5px 0px;
+  	box-sizing: border-box;
+  	color: #582a80;
+  	font-family: 'Lucida Grande';
+}
+.container20 {
+  	align-self: stretch;
+  	flex: 1;
+  	position: relative;
+  	max-width: 1440px;
+}
+.container19 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+}
+.container18 {
+  	width: 1440px;
+  	background-color: rgba(255, 255, 255, 0);
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	max-width: 1440px;
+}
+.header {
+  	width: 1440px;
+  	background-color: rgba(205, 227, 243, 0);
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.header-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	font-size: 15px;
+  	color: #222;
+}
+.aeps {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 900px;
+  	overflow-y: auto;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #212529;
+  	font-family: Poppins;
+}
+/* Custom radio button checked state */
+input[type="radio"]:checked + label > .border {
+  border-color: #38c4e7;
+  background: radial-gradient(circle at center, #38c4e7 60%, transparent 61%);
+}
+
+input[type="radio"] + label > .border {
+  transition: border-color 0.2s, background 0.2s;
+}

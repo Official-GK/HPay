@@ -1,0 +1,731 @@
+.gradient-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 900px;
+}
+.mnemonicpng-icon {
+  	width: 64px;
+  	position: relative;
+  	height: 64px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+  	max-width: 216.25px;
+}
+.container {
+  	align-self: stretch;
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 30px 0px 122.3px;
+  	box-sizing: border-box;
+  	max-width: 218.75px;
+}
+.horizontalborder {
+  	width: 100%;
+  	border-bottom: 1px solid #dee2e6;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-end;
+  	padding: 7.5px 30px 8.5px 1066.3px;
+  	max-width: 1312.5px;
+}
+.savings {
+  	position: relative;
+  	line-height: 18px;
+}
+.margin {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 3.8px 11.3px 3.8px 3.8px;
+}
+.datacard {
+  	position: relative;
+  	line-height: 22.5px;
+  	font-weight: 600;
+}
+.container3 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 15px;
+  	color: #222;
+  	font-family: Poppins;
+}
+.component-1 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 8.5px 16px;
+}
+.item {
+  	align-self: stretch;
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.list {
+  	align-self: stretch;
+  	background-color: #f9f9f9;
+  	border-bottom: 1px solid #dee2e6;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+}
+.container2 {
+  	align-self: stretch;
+  	width: 218.8px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	max-width: 218.75px;
+  	font-family: 'Material Icons';
+}
+.container16 {
+  	width: 100%;
+  	position: relative;
+  	height: 15px;
+  	max-width: 436.83px;
+}
+.vector-icon {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.component-2 {
+  	width: 8px;
+  	position: relative;
+  	height: 10px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.image-fill {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 406.8px;
+  	height: 45px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: center;
+  	padding: 17.5px 12.3px 17.5px 386.6px;
+  	box-sizing: border-box;
+}
+.select-biller- {
+  	position: relative;
+  	line-height: 24px;
+  	font-weight: 600;
+}
+.container19 {
+  	position: absolute;
+  	width: calc(100% - 19.5px);
+  	top: calc(50% - 6.5px);
+  	right: 11px;
+  	left: 8.5px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.options {
+  	align-self: stretch;
+  	position: relative;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #999;
+  	box-sizing: border-box;
+  	height: 45px;
+  	z-index: 0;
+}
+.biller {
+  	position: relative;
+  	line-height: 19.5px;
+}
+.label {
+  	width: 10.74%;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: -10px;
+  	right: 86.8%;
+  	left: 2.46%;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 5px;
+  	box-sizing: border-box;
+  	z-index: 1;
+  	font-size: 13px;
+  	color: #5264ae;
+}
+.container18 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	position: relative;
+}
+.container17 {
+  	width: 100%;
+  	height: 65px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 20px 15px 0px;
+  	box-sizing: border-box;
+  	max-width: 436.83px;
+}
+.margin9 {
+  	width: 100%;
+  	height: 80px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 0px 0px 15px;
+  	box-sizing: border-box;
+  	max-width: 436.83px;
+}
+.input {
+  	width: 408.8px;
+  	position: relative;
+  	border-radius: 5px;
+  	border: 1px solid #999;
+  	box-sizing: border-box;
+  	height: 47px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	z-index: 0;
+}
+.customer-mobile-number {
+  	position: relative;
+  	line-height: 21px;
+  	font-weight: 600;
+}
+.label1 {
+  	width: 45.01%;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 12px;
+  	right: 52.53%;
+  	left: 2.46%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	z-index: 1;
+}
+.container20 {
+  	width: 100%;
+  	height: 67px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 20px 15px 0px;
+  	box-sizing: border-box;
+  	max-width: 436.83px;
+}
+.margin10 {
+  	width: 100%;
+  	height: 82px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 0px 0px 15px;
+  	box-sizing: border-box;
+  	max-width: 436.83px;
+  	font-size: 14px;
+}
+.text {
+  	position: relative;
+  	line-height: 30px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+}
+.component-3 {
+  	border-radius: 3.75px;
+  	background-color: #38c4e7;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 3.8px 11.3px;
+}
+.container22 {
+  	width: 100%;
+  	height: 37.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 0px 15px;
+  	box-sizing: border-box;
+  	max-width: 436.83px;
+  	text-align: center;
+  	font-size: 15px;
+  	color: #fff;
+}
+.container15 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+}
+.container14 {
+  	width: 436.8px;
+  	height: 214.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	max-width: 436.83px;
+}
+.container13 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: center;
+}
+.backgroundverticalborder {
+  	align-self: stretch;
+  	background-color: #fff;
+  	border-left: 1px solid #dee2e6;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 7.5px 0px 7.5px 1px;
+}
+.container12 {
+  	align-self: stretch;
+  	width: 656.3px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	max-width: 656.25px;
+  	font-size: 16px;
+  	color: #495057;
+}
+.vector-icon1 {
+  	position: absolute;
+  	height: 93.75%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 6.25%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.component-21 {
+  	width: 16px;
+  	position: relative;
+  	height: 16px;
+}
+.favourite-list {
+  	position: relative;
+  	line-height: 18px;
+  	font-weight: 500;
+}
+.heading-5 {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-end;
+  	justify-content: flex-start;
+}
+.text1 {
+  	align-self: stretch;
+  	position: relative;
+}
+.container26 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.component-4 {
+  	align-self: stretch;
+  	height: 27px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.backgroundborder {
+  	align-self: stretch;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	border: 1px solid #bbb;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 1px 1px 1px 8.5px;
+}
+.container25 {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 15px;
+  	box-sizing: border-box;
+  	max-width: 255.21px;
+  	font-size: 22.5px;
+  	color: #6c757d;
+  	font-family: Times;
+}
+.container24 {
+  	align-self: stretch;
+  	border-radius: 3.75px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	padding: 0px 3.8px;
+  	gap: 0px;
+}
+.background {
+  	align-self: stretch;
+  	border-radius: 3.75px;
+  	background-color: #f8f9fa;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 7.5px 0px;
+}
+.container23 {
+  	align-self: stretch;
+  	width: 437.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	max-width: 437.5px;
+  	font-size: 15px;
+  	color: #212529;
+}
+.container1 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	gap: 0px;
+  	min-height: 444px;
+}
+.tabpanel {
+  	position: absolute;
+  	top: 184px;
+  	left: 64px;
+  	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+  	border-radius: 0px 0px 3.75px 3.75px;
+  	background-color: #fff;
+  	width: 1312.5px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 7.5px;
+}
+.logo-hpaypng-icon {
+  	width: 130.8px;
+  	position: relative;
+  	height: 50px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.component-22 {
+  	position: absolute;
+  	width: calc(100% - 1294.2px);
+  	top: 0px;
+  	right: 1279.2px;
+  	left: 15px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 3.8px 7.5px;
+  	box-sizing: border-box;
+}
+.welcome {
+  	position: absolute;
+  	top: 10.75px;
+  	left: 15px;
+  	line-height: 18px;
+  	color: #6c757d;
+  	display: flex;
+  	align-items: center;
+  	width: 59.8px;
+  	height: 18px;
+}
+.abhinav-mishra {
+  	position: absolute;
+  	top: 10.75px;
+  	left: 78px;
+  	line-height: 18px;
+  	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	width: 96.3px;
+  	height: 18px;
+}
+.epwr000019-hpay {
+  	position: absolute;
+  	top: 28.75px;
+  	left: 15px;
+  	line-height: 18px;
+  	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	width: 121.9px;
+  	height: 18px;
+}
+.link {
+  	position: absolute;
+  	width: calc(100% - 1251px);
+  	top: 4px;
+  	right: 45px;
+  	left: 1206px;
+  	height: 60px;
+  	font-size: 12px;
+}
+.item9 {
+  	width: 46px;
+  	height: 23px;
+}
+.paymentspng-icon {
+  	position: absolute;
+  	top: 8.34px;
+  	left: 11.25px;
+  	width: 24px;
+  	height: 23px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.text2 {
+  	position: absolute;
+  	top: 7.25px;
+  	left: 39px;
+  	line-height: 22.5px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 81.1px;
+  	height: 23px;
+}
+.component-8 {
+  	width: 131.1px;
+  	position: relative;
+  	height: 38.8px;
+}
+.component-10 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.rechargepng-icon {
+  	position: absolute;
+  	top: 7.5px;
+  	left: 11.25px;
+  	width: 30px;
+  	height: 30px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.text3 {
+  	position: absolute;
+  	top: 9.91px;
+  	left: 45px;
+  	line-height: 22.5px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 77.4px;
+  	height: 23px;
+}
+.component-81 {
+  	width: 133.3px;
+  	position: relative;
+  	height: 45px;
+}
+.wallettransferpng-icon {
+  	width: 24px;
+  	position: relative;
+  	height: 25px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.component-82 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 7.5px 11.3px;
+  	gap: 3.8px;
+}
+.creditcardpng-icon {
+  	position: absolute;
+  	top: 7.84px;
+  	left: 11.25px;
+  	width: 24px;
+  	height: 24px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.text6 {
+  	position: absolute;
+  	top: 7.25px;
+  	left: 39px;
+  	line-height: 22.5px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 89.9px;
+  	height: 23px;
+}
+.component-84 {
+  	width: 139.8px;
+  	position: relative;
+  	height: 39.3px;
+}
+.list9 {
+  	position: absolute;
+  	top: 8px;
+  	left: 117px;
+  	width: 874.9px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.component-31 {
+  	width: 24px;
+  	position: relative;
+  	height: 24px;
+}
+.b {
+  	position: relative;
+  	line-height: 22.5px;
+}
+.link1 {
+  	position: absolute;
+  	top: 3px;
+  	left: 1395px;
+  	width: 34px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 7.5px 0px;
+  	box-sizing: border-box;
+  	color: #582a80;
+  	font-family: 'Lucida Grande';
+}
+.container29 {
+  	align-self: stretch;
+  	flex: 1;
+  	position: relative;
+  	max-width: 1440px;
+}
+.container28 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+}
+.container27 {
+  	width: 1440px;
+  	background-color: rgba(255, 255, 255, 0);
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	max-width: 1440px;
+}
+.header {
+  	width: 1440px;
+  	background-color: rgba(205, 227, 243, 0);
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.header-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: -3px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	font-size: 15px;
+  	color: #222;
+}
+.bbpsonline {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 900px;
+  	overflow-y: auto;
+  	text-align: left;
+  	font-size: 18px;
+  	color: #6c757d;
+  	font-family: Poppins;
+}

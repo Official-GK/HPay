@@ -1,0 +1,561 @@
+.gradient-icon {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 900px;
+  }
+  .dmtpng {
+	width: 30px;
+	position: relative;
+	border-radius: 11.5px;
+	background-color: #fff;
+	height: 16px;
+	overflow: hidden;
+	flex-shrink: 0;
+  }
+  .heading-6 {
+	position: relative;
+	line-height: 18px;
+	font-weight: 500;
+  }
+  .heading-6margin {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 11.5px 3.8px 6.9px;
+  }
+  .tab {
+	align-self: stretch;
+	border-radius: 3.75px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 3.8px;
+  }
+  .container {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 3.8px;
+  }
+  .tablist {
+	align-self: stretch;
+	border-radius: 3.75px;
+	background-color: #38c4e7;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+  }
+  .container6 {
+	width: 100%;
+	position: relative;
+	height: 15px;
+	max-width: 422.16px;
+  }
+  .biller {
+	position: relative;
+	line-height: 21px;
+	font-weight: 600;
+  }
+  .label {
+	position: absolute;
+	width: 8.92%;
+	top: 12px;
+	right: 88.53%;
+	left: 2.55%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+  }
+  .container8 {
+	align-self: stretch;
+	position: relative;
+	height: 0px;
+  }
+  .container7 {
+	width: 100%;
+	height: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 20px 15px 0px;
+	box-sizing: border-box;
+	max-width: 422.16px;
+  }
+  .margin1 {
+	width: 100%;
+	height: 35px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 0px 0px 15px;
+	box-sizing: border-box;
+	max-width: 400px;
+	margin-bottom: 1rem;
+  }
+  .input {
+	width: 100%;
+	position: relative;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: 47px;
+	overflow: hidden;
+	flex-shrink: 0;
+  }
+  .input input[type="text"] {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #999;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+  }
+  .container4, .container5 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+  }
+  .label1 {
+	width: 46.69%;
+	margin: 0 !important;
+	position: absolute;
+	top: 12px;
+	right: 50.76%;
+	left: 2.55%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	z-index: 1;
+  }
+  .container10 {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: relative;
+  }
+  .container9 {
+	width: 100%;
+	height: 67px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 20px 15px 0px;
+	box-sizing: border-box;
+	max-width: 422.16px;
+  }
+  .margin2 {
+	width: 100%;
+	height: 82px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 0px 0px 15px;
+	box-sizing: border-box;
+	max-width: 400px;
+	margin-bottom: 1rem;
+  }
+  .text {
+	position: relative;
+	line-height: 30px;
+	text-transform: capitalize;
+	font-weight: 600;
+  }
+  .component-1 {
+	border-radius: 3.75px;
+	background-color: #38c4e7;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 3.8px 11.3px;
+  }
+  .container11 {
+	width: 100%;
+	height: 37.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	max-width: 422.16px;
+	font-size: 15px;
+	color: #fff;
+  }
+  .container5 {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+  }
+  .container4 {
+	width: 422.2px;
+	height: 169.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	max-width: 422.17px;
+  }
+  .margin {
+	width: 1055.4px;
+	height: 169.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 316.6px;
+	box-sizing: border-box;
+	min-width: 422.16px;
+  }
+  .bharatbillpaypng-icon {
+	width: 146px;
+	position: relative;
+	height: 64px;
+	overflow: hidden;
+	flex-shrink: 0;
+	object-fit: cover;
+	max-width: 211.08px;
+  }
+  .container12 {
+	align-self: stretch;
+	width: 211.1px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	max-width: 211.08px;
+  }
+  .container3 {
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	gap: 0px;
+  }
+  .backgroundverticalborder {
+	align-self: stretch;
+	background-color: #fff;
+	border-left: 1px solid #dee2e6;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 7.5px 0px 7.5px 1px;
+  }
+  .container2 {
+	align-self: stretch;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	max-width: 1267.5px;
+  }
+  .container1 {
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+  }
+  .tabpanel {
+	width: 1267.5px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14),
+				0px 3px 1px -2px rgba(0, 0, 0, 0.12),
+				0px 1px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 3.75px 3.75px;
+	background-color: #fff;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	text-align: center;
+	font-size: 14px;
+	color: #495057;
+  }
+  .background {
+	position: absolute;
+	width: calc(100% - 127.5px);
+	top: 313px;
+	right: 63.5px;
+	left: 64px;
+	border-radius: 3.75px;
+	background-color: #f8f9fa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0px 0px 7.5px;
+	box-sizing: border-box;
+	gap: 30px;
+  }
+  .logo-hpaypng-icon {
+	width: 130.8px;
+	position: relative;
+	height: 50px;
+	overflow: hidden;
+	flex-shrink: 0;
+	object-fit: cover;
+  }
+  .component-2 {
+	position: absolute;
+	width: calc(100% - 1294.2px);
+	top: 0px;
+	right: 1279.2px;
+	left: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 3.8px 7.5px;
+	box-sizing: border-box;
+  }
+  .welcome {
+	position: absolute;
+	top: 10.75px;
+	left: 15px;
+	line-height: 18px;
+	color: #6c757d;
+	display: flex;
+	align-items: center;
+	width: 59.8px;
+	height: 18px;
+  }
+  .abhinav-mishra {
+	position: absolute;
+	top: 10.75px;
+	left: 78px;
+	line-height: 18px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	width: 96.3px;
+	height: 18px;
+  }
+  .epwr000019-hpay {
+	position: absolute;
+	top: 28.75px;
+	left: 15px;
+	line-height: 18px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	width: 121.9px;
+	height: 18px;
+  }
+  .link {
+	position: absolute;
+	width: calc(100% - 1251px);
+	top: 4px;
+	right: 45px;
+	left: 1206px;
+	height: 60px;
+	font-size: 12px;
+  }
+  .item {
+	width: 46px;
+	height: 23px;
+  }
+  .paymentspng-icon {
+	position: absolute;
+	top: 8.34px;
+	left: 11.25px;
+	width: 24px;
+	height: 23px;
+	overflow: hidden;
+	object-fit: cover;
+  }
+  .text1 {
+	position: absolute;
+	top: 7.25px;
+	left: 39px;
+	line-height: 22.5px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	width: 81.1px;
+	height: 23px;
+  }
+  .component-8 {
+	width: 131.1px;
+	position: relative;
+	height: 38.8px;
+  }
+  .component-10 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+  }
+  .rechargepng-icon {
+	position: absolute;
+	top: 7.5px;
+	left: 11.25px;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	object-fit: cover;
+  }
+  .text2 {
+	position: absolute;
+	top: 9.91px;
+	left: 45px;
+	line-height: 22.5px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	width: 77.4px;
+	height: 23px;
+  }
+  .component-81 {
+	width: 133.3px;
+	position: relative;
+	height: 45px;
+  }
+  .wallettransferpng-icon {
+	width: 24px;
+	position: relative;
+	height: 25px;
+	overflow: hidden;
+	flex-shrink: 0;
+	object-fit: cover;
+  }
+  .text3 {
+	position: relative;
+	line-height: 22.5px;
+	font-weight: 600;
+  }
+  .component-82 {
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 7.5px 11.3px;
+	gap: 3.8px;
+  }
+  .creditcardpng-icon {
+	position: absolute;
+	top: 7.84px;
+	left: 11.25px;
+	width: 24px;
+	height: 24px;
+	overflow: hidden;
+	object-fit: cover;
+  }
+  .text5 {
+	position: absolute;
+	top: 7.25px;
+	left: 39px;
+	line-height: 22.5px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	width: 89.9px;
+	height: 23px;
+  }
+  .component-84 {
+	width: 139.8px;
+	position: relative;
+	height: 39.3px;
+  }
+  .list {
+	position: absolute;
+	top: 8px;
+	left: 117px;
+	width: 874.9px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+  }
+  .vector-icon {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+  }
+  .component-3 {
+	width: 24px;
+	position: relative;
+	height: 24px;
+  }
+  .b {
+	position: relative;
+	line-height: 22.5px;
+  }
+  .link1 {
+	position: absolute;
+	top: 3px;
+	left: 1395px;
+	width: 34px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 7.5px 0px;
+	box-sizing: border-box;
+	color: #582a80;
+	font-family: 'Lucida Grande';
+  }
+  .container15 {
+	align-self: stretch;
+	flex: 1;
+	position: relative;
+	max-width: 1440px;
+  }
+  .container13 {
+	width: 1440px;
+	background-color: rgba(255, 255, 255, 0);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	max-width: 1440px;
+  }
+  .igl-commercial-bill {
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	height: 900px;
+	overflow-y: auto;
+	text-align: left;
+	font-size: 15px;
+	color: #212529;
+	font-family: Poppins;
+  }
+  

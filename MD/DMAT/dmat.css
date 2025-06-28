@@ -1,0 +1,174 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #212529;
+  background-color: #fff;
+}
+
+.app-container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 900px;
+  overflow-y: auto;
+  padding-top: 10px;
+}
+
+/* Header Styles */
+.main-header {
+  width: 100%;
+  background-color: rgba(205, 227, 243, 0);
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.username {
+  font-weight: 500;
+}
+
+/* Main Content Styles */
+.main-content {
+  position: relative;
+  padding: 20px;
+}
+
+.background-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Money Transfer Section */
+.money-transfer-section {
+  max-width: 1342px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 
+              0px 3px 1px -2px rgba(0, 0, 0, 0.12), 
+              0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.transfer-options {
+  display: flex;
+  background-color: #38c4e7;
+  border-radius: 4px;
+}
+
+.transfer-option {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #212529;
+}
+
+.transfer-option.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.transfer-option img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.transfer-form {
+  padding: 20px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  background-color: #f8f9fa;
+}
+
+.search-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.search-icon img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 610px;
+  margin: 0 auto;
+  align-items: flex-end;
+}
+
+.input-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.bank-selector {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-button {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #5a5a5a;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px;
+  color: #999;
+  font-family: 'Times', serif;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.search-button {
+  background-color: #38c4e7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 46px;
+  min-width: 100px;
+}
