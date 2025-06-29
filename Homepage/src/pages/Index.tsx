@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Header } from '@/components/Header';
 import { TickerBanner } from '@/components/TickerBanner';
@@ -23,7 +22,7 @@ const Index: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center py-[19px]">
+    <div className="flex flex-col items-center">
       <Header />
       
       <TickerBanner />

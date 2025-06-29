@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 interface TransactionItemProps {
@@ -29,16 +30,14 @@ export const TransactionItem: React.FC<TransactionItemProps> = ({
     : "";
 
   return (
-    <article className={`bg-[rgba(247,250,252,1)] flex w-full items-stretch gap-5 flex-wrap justify-between px-4 py-${isFirst || isLast ? '2' : '3'} max-md:max-w-full ${roundedClasses}`}>
+    <article className={`bg-[rgba(247,250,252,1)] flex w-full items-stretch gap-5 flex-wrap justify-between px-4 py-3 max-md:max-w-full ${roundedClasses}`}>
       <div className="flex items-stretch gap-4">
         <img
           src={avatar}
           alt={`${title} avatar`}
-          className={`aspect-[1] object-contain w-${isFirst || isLast ? '14' : '12'} shrink-0 ${
-            isFirst || isLast ? 'rounded-[28px]' : 'rounded-lg'
-          }`}
+          className="aspect-square object-cover w-12 h-12 shrink-0 rounded-full"
         />
-        <div className={`${isFirst || isLast ? 'my-auto' : 'flex flex-col items-stretch my-auto'}`}>
+        <div className="flex flex-col items-stretch my-auto">
           <h4 className="text-[rgba(13,20,28,1)] text-base font-medium">
             {title}
           </h4>

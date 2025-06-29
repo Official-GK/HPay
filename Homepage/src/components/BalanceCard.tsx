@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 interface BalanceCardProps {
@@ -40,8 +39,8 @@ export const BalanceCard: React.FC<BalanceCardProps> = ({
         <div className="text-[44px] mt-[22px]">
           {formatBalance(currentBalance)}
         </div>
-        <div className="text-center ml-2.5 mt-[33px]">
-          Current Balance
+        <div className="text-left ml-2.5 mt-[33px]">
+          Trade Balance
         </div>
         <div className="text-[44px] mt-[22px]">
           {formatBalance(secondaryBalance)}
