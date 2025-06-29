@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HPay Dashboard</title>
+  <link rel="stylesheet" href="history.css">
+  <link rel="stylesheet" href="../navbar.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header/Navbar -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-container">
+                <img class="logo" src="../NewLogo.png" alt="HPay Logo">
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list" id="main-nav-list">
+                    <li class="nav-item has-dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="10" rx="2" fill="#4CAF50"/><rect x="4" y="9" width="16" height="6" rx="1" fill="#A5D6A7"/><rect x="7" y="12" width="2" height="2" rx="1" fill="#388E3C"/></svg>
+                            <span>Payments</span>
+                            <span class="material-icons dropdown-arrow">expand_more</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12V8H4v4"/><path d="M4 8a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V8z"/><path d="M12 15l-2 2 2 2 2-2-2-2z"/></svg> PPI Wallet Gold</a></li>
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1976D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8c-3.333 0-5 1.333-5 4s1.667 4 5 4M12 8h.01"/><path d="M12 16h.01"/><path d="M15 12h-3"/><path d="M12 12V8M12 12v4M8 12h1m5 0h1m-6-3h.01M14 9h.01M10 15h.01M14 15h.01"/></svg> DMT</a></li>
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 00-9 9 9 9 0 009 9 8 8 0 008-8 9 9 0 00-9-9z"/><path d="M22 12h-4"/><path d="M2 12h4"/><path d="M12 2v4"/><path d="M12 22v-4"/></svg> AEPS</a></li>
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="#39c3e8"><path d="M4 4h6v6H4zM4 14h6v6H4zM14 4h6v6h-6zM14 14h6v6h-6z"/></svg> UPI Pay</a></li>
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6c757d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12V8H4v4"/><path d="M4 8a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V8z"/></svg> PPI Wallet</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="10" rx="2" fill="#29B6F6"/><rect x="4" y="9" width="16" height="6" rx="1" fill="#A5D6A7"/><rect x="7" y="12" width="2" height="2" rx="1" fill="#81D4FA"/><circle cx="12" cy="17" r="1" fill="#0288D1"/></svg>
+                            <span>Recharge</span>
+                            <span class="material-icons dropdown-arrow">expand_more</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#29B6F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2h-2"/><path d="M12 18V6l-3 3 3-3 3 3"/><rect x="8" y="3" width="8" height="4" rx="1" ry="1"/></svg> Recharge</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="18" height="10" rx="3" fill="#FFB300"/><rect x="5" y="9" width="14" height="6" rx="2" fill="#FFE082"/><rect x="8" y="12" width="3" height="2" rx="1" fill="#F57C00"/></svg>
+                            <span>Wallet Transfer</span>
+                            <span class="material-icons dropdown-arrow">expand_more</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFB300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8l4-4 4 4"/><path d="M6 4v16"/><path d="M20 12V8H8v4"/><path d="M8 8a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 01-2 2H10a2 2 0 01-2-2V8z"/></svg> Fintech Wallet to Bank Transfer</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" fill="#90CAF9"/><rect x="6" y="7" width="12" height="2" rx="1" fill="#1976D2"/><rect x="6" y="11" width="12" height="2" rx="1" fill="#1976D2"/><rect x="6" y="15" width="8" height="2" rx="1" fill="#1976D2"/></svg>
+                            <span>BillPayments</span>
+                            <span class="material-icons dropdown-arrow">expand_more</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1976D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="M9 14h6"/><path d="M9 17h6"/><path d="M14 14l-4-4 4-4"/></svg> Bill Payment Offline</a></li>
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1976D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="M10 17l-3-3 3-3"/><path d="M13 17h1"/></svg> Bill Payment Online</a></li>
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.43 3.32a3.5 3.5 0 00-4.86 4.86L3.32 13.43a3.5 3.5 0 004.86 4.86l5.25-5.25a3.5 3.5 0 004.86-4.86l-5.25-5.25z"/><path d="M22 6s-2 6-6 6"/></svg> IGL Commercial Bill</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="12" rx="2" fill="#1976D2"/><rect x="5" y="10" width="14" height="2" rx="1" fill="#64B5F6"/><rect x="7" y="14" width="4" height="2" rx="1" fill="#1565C0"/></svg>
+                            <span>Credit card</span>
+                            <span class="material-icons dropdown-arrow">expand_more</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1976D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg> Credit Card Bill</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="12" rx="4" fill="#81C784"/><circle cx="8" cy="12" r="2" fill="#FFD600"/><circle cx="16" cy="10" r="2" fill="#E53935"/><rect x="12" y="14" width="4" height="2" rx="1" fill="#43A047"/></svg>
+                            <span>Travel</span>
+                            <span class="material-icons dropdown-arrow">expand_more</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2196F3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20l-4-4m4 4l-4 4"/><path d="M12 2l4 10h-8l4-10z"/></svg> Airline</a></li>
+                            <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#795548" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2" ry="2"/><line x1="7" y1="11" x2="7" y2="3"/><line x1="17" y1="11" x2="17" y2="3"/><line x1="3" y1="16" x2="21" y2="16"/><circle cx="7" cy="20" r="1"/><circle cx="17" cy="20"r="1"/></svg> Bus</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="navbar-balances">
+              <span class="balance-block">
+                <svg class="balance-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="18" height="10" rx="3" fill="#39c3e8"/><rect x="5" y="9" width="14" height="6" rx="2" fill="#b2ebf2"/><rect x="8" y="12" width="3" height="2" rx="1" fill="#582a80"/></svg>
+                <span class="balance-label">Cr Bal:</span>
+                <span class="balance-value" id="current-balance">₹0.00</span>
+              </span>
+              <span class="balance-block">
+                <svg class="balance-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 17l6-6 4 4 8-8" stroke="#582a80" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="11" r="2" fill="#39c3e8"/></svg>
+                <span class="balance-label">Tr Bal:</span>
+                <span class="balance-value" id="trade-balance">₹0.00</span>
+              </span>
+            </div>
+            <div class="header-user-group">
+                <span class="material-icons notification-icon">notifications</span>
+                <div class="user-info" style="text-align: right;">
+                    <div class="welcome">Welcome: <span class="username">Abhinav Mishra</span></div>
+                    <div class="user-id">EPWR000019 (hpay)</div>
+                </div>
+                <span class="material-icons" style="color: #7c3aed; font-size: 32px;">account_circle</span>
+            </div>
+            <button class="hamburger-btn" aria-label="Open navigation" tabindex="0">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <rect y="6" width="32" height="4" rx="2" fill="#582a80"/>
+                    <rect y="14" width="32" height="4" rx="2" fill="#582a80"/>
+                    <rect y="22" width="32" height="4" rx="2" fill="#582a80"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main class="app-content">
+      <div class="floating-header">
+        <button class="back-button">
+          <span class="material-icons">arrow_back_ios</span>
+        </button>
+        <span class="floating-header-title">History</span>
+        <button class="export-btn">
+          <span class="material-icons">download</span>Export
+        </button>
+      </div>
+      <div class="history-card">
+        <div class="divider"></div>
+        <div class="tabs-container">
+          <nav class="tabs-nav">
+            <ul class="tabs-list">
+              <li class="tab-item active"><a href="#">PPI WALLET GOLD</a></li>
+              <li class="tab-item"><a href="#">ROCKET PAY</a></li>
+              <li class="tab-item"><a href="#">DMT</a></li>
+              <li class="tab-item"><a href="#">AEPS</a></li>
+              <li class="tab-item"><a href="#">Bill Payment Offline</a></li>
+              <li class="tab-item"><a href="#">BBPS Online</a></li>
+              <li class="tab-item"><a href="#">Recharge</a></li>
+              <li class="tab-item"><a href="#">Aadhaar Pay</a></li>
+              <li class="tab-item"><a href="#">Airline</a></li>
+              <li class="tab-item"><a href="#">Bus</a></li>
+              <li class="tab-item"><a href="#">FUND TRANSFER / WALLET TO WALLET</a></li>
+              <li class="tab-item"><a href="#">mATM</a></li>
+              <li class="tab-item"><a href="#">Fintech Wallet to Bank Transfer</a></li>
+              <li class="tab-item"><a href="#">CMS</a></li>
+              <li class="tab-item"><a href="#">UPI Pay</a></li>
+              <li class="tab-item"><a href="#">QR</a></li>
+              <li class="tab-item"><a href="#">PPI WALLET</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="filter-bar">
+          <select>
+            <option>ALL</option>
+          </select>
+          <input type="text" placeholder="Enter Filter Details">
+          <select>
+            <option>ALL</option>
+          </select>
+          <input type="date">
+          <input type="date">
+          <button class="search-button">Search</button>
+          <input type="text" placeholder="Enter Global Search">
+        </div>
+        <div class="history-table-container">
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2024-06-01</td>
+                <td>Wallet Transfer</td>
+                <td>₹1,000</td>
+                <td><span class="status-badge success">Success</span></td>
+                <td>To John Doe</td>
+              </tr>
+              <tr>
+                <td>2024-05-30</td>
+                <td>Recharge</td>
+                <td>₹500</td>
+                <td><span class="status-badge failed">Failed</span></td>
+                <td>Mobile 9876543210</td>
+              </tr>
+              <tr>
+                <td>2024-05-28</td>
+                <td>Bill Payment</td>
+                <td>₹2,000</td>
+                <td><span class="status-badge pending">Pending</span></td>
+                <td>Electricity</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
+<script>
+// Make tabs-list items clickable and set active class
+const tabsList = document.querySelector('.tabs-list');
+if (tabsList) {
+  tabsList.addEventListener('click', function(e) {
+    const tabItem = e.target.closest('.tab-item');
+    if (tabItem) {
+      tabsList.querySelectorAll('.tab-item').forEach(t => t.classList.remove('active'));
+      tabItem.classList.add('active');
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger-btn');
+    const headerContainer = document.querySelector('.header-container');
+    const navList = document.getElementById('main-nav-list');
+    
+    function closeMenu() {
+        headerContainer.classList.remove('nav-open');
+        // Close all dropdowns when menu is closed
+        navList.querySelectorAll('.has-dropdown').forEach(item => {
+            item.classList.remove('open');
+        });
+    }
+    
+    if (hamburger && headerContainer) {
+        hamburger.addEventListener('click', function(e) {
+            e.stopPropagation();
+            headerContainer.classList.toggle('nav-open');
+        });
+        
+        hamburger.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                headerContainer.classList.toggle('nav-open');
+            }
+        });
+    }
+    
+    // Handle dropdown toggles in mobile menu
+    if (navList) {
+        navList.addEventListener('click', function(e) {
+            const link = e.target.closest('.nav-link');
+            if (!link) return;
+            
+            const navItem = link.parentElement;
+            
+            // Only handle dropdown toggles when menu is open (mobile view)
+            if (headerContainer.classList.contains('nav-open')) {
+                // If clicking a parent nav-link with dropdown
+                if (navItem.classList.contains('has-dropdown')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    // Toggle the clicked dropdown
+                    navItem.classList.toggle('open');
+                    
+                    // Close other open dropdowns
+                    navList.querySelectorAll('.has-dropdown').forEach(item => {
+                        if (item !== navItem) {
+                            item.classList.remove('open');
+                        }
+                    });
+                    return;
+                }
+                
+                // If clicking a child link inside a dropdown, allow navigation and close menu
+                if (navItem.closest('.has-dropdown') && !navItem.classList.contains('has-dropdown')) {
+                    closeMenu();
+                    return;
+                }
+                
+                // If clicking a regular nav item (no dropdown), close the menu
+                if (navItem.classList.contains('nav-item') && !navItem.classList.contains('has-dropdown')) {
+                    closeMenu();
+                }
+            }
+        });
+    }
+    
+    // Close menu on outside click
+    document.addEventListener('click', function(e) {
+        if (headerContainer.classList.contains('nav-open') && !headerContainer.contains(e.target)) {
+            closeMenu();
+        }
+    });
+    
+    // Close menu on Escape
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeMenu();
+        }
+    });
+});
+</script>
