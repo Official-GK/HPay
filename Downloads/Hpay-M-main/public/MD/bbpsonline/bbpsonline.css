@@ -1,0 +1,112 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+     	background: linear-gradient(-64.5deg, #cde3f3, #d1ecff);
+      color: #333;
+    }
+
+    .container {
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .main-content {
+      display: flex;
+      gap: 32px;
+      margin-top: 24px;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 16px;
+      flex: 1;
+    }
+
+    .service-btn {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 1rem;
+      padding: 16px;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: box-shadow 0.2s, background 0.2s, border-color 0.2s, transform 0.15s;
+      box-shadow: 0 2px 8px rgba(56,196,231,0.06);
+      font-weight: 600;
+      outline: none;
+    }
+
+    .service-btn:hover, .service-btn:focus {
+      background-color: #e0f7fa;
+      border-color: #38c4e7;
+      box-shadow: 0 4px 16px rgba(56,196,231,0.13);
+      transform: scale(1.04);
+    }
+
+    .service-btn:active {
+      background-color: #b2ebf2;
+      border-color: #38c4e7;
+      box-shadow: 0 2px 8px rgba(56,196,231,0.10);
+      transform: scale(0.98);
+    }
+
+    .service-btn .material-icons {
+      font-size: 32px;
+      color: #6c757d;
+      margin-bottom: 8px;
+    }
+
+    .payment-form {
+      flex: 1;
+      background: white;
+      padding: 24px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .payment-form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .payment-form input {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .submit-btn {
+      background-color: #38c4e7;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .favourites {
+      margin-top: 32px;
+      background: white;
+      padding: 16px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .favourites input[type="text"] {
+      margin-top: 8px;
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }

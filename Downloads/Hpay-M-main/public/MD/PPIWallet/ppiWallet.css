@@ -1,0 +1,68 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+   
+    }
+
+    body {
+     	background: linear-gradient(-64.5deg, #cde3f3, #d1ecff);
+      color: #333;
+    }
+
+    .main-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .kyc-flow {
+      background: #fff;
+      padding: 32px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .kyc-flow h2 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .step {
+      margin-bottom: 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .step img {
+      width: 48px;
+      height: 48px;
+    }
+
+    .step p {
+      font-size: 1rem;
+      margin: 4px 0;
+    }
+
+    .highlight {
+      font-weight: 500;
+      margin-top: 6px;
+    }
+
+    .button-wrap {
+      text-align: center;
+      margin-top: 32px;
+    }
+
+    .cta-button {
+      background: #38c4e7;
+      color: white;
+      padding: 14px 32px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+    }

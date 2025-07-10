@@ -1,0 +1,79 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+	background: linear-gradient(-64.5deg, #cde3f3, #d1ecff);
+      color: #333;
+    }
+
+
+    .main-content {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .search-controls {
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .search-controls input[type="text"] {
+      padding: 12px 16px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      width: 160px;
+    }
+
+    .search-controls button {
+      padding: 12px 28px;
+      background: #39c3e8;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .radio-filters {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .radio-filters label {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-weight: 500;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .recent-bookings {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .recent-bookings b {
+      color: #888;
+      font-size: 1.1rem;
+    }
+  

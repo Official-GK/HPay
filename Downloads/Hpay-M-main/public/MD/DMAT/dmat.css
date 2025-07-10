@@ -1,0 +1,123 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    body {
+      	background: linear-gradient(-64.5deg, #cde3f3, #d1ecff);
+    }
+
+
+
+    .main-content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .transfer-options {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 24px;
+    }
+
+    .transfer-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #f0f4f8;
+      border: 1.5px solid #e0e7ef;
+      border-radius: 1.25rem;
+      padding: 12px 24px;
+      cursor: pointer;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(56,196,231,0.06);
+      transition: box-shadow 0.2s, background 0.2s, border-color 0.2s, color 0.2s, transform 0.15s;
+      outline: none;
+      color: #222;
+    }
+
+    .transfer-option:hover, .transfer-option:focus {
+      background: #e0f7fa !important;
+      border-color: #38c4e7 !important;
+      box-shadow: 0 4px 16px rgba(56,196,231,0.13);
+      transform: scale(1.04);
+      color: #222;
+    }
+
+    .transfer-option:active {
+      background: #b2ebf2 !important;
+      border-color: #38c4e7 !important;
+      box-shadow: 0 2px 8px rgba(56,196,231,0.10);
+      transform: scale(0.98);
+      color: #222;
+    }
+
+    .transfer-option.active {
+      background-color: #f0f4f8;
+      color: black;
+      border-color: #f0f4f8;
+      box-shadow: 0 4px 16px rgba(56,196,231,0.13);
+      transform: scale(1.04);
+    }
+
+    .transfer-option img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .search-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+
+    .form-container {
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    .input-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .input-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .input-field label {
+      font-weight: 500;
+    }
+
+    .input-field input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      width: 100%;
+    }
+
+    .search-button {
+      padding: 12px 24px;
+      background-color: #38c4e7;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }

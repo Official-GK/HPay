@@ -1,0 +1,104 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    body {
+     	background: linear-gradient(-64.5deg, #cde3f3, #d1ecff);
+    }
+
+    .main-content {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      position: relative;
+    }
+
+    .gradient-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+    }
+
+    .payment-container {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+      padding: 24px;
+    }
+
+    .payment-tabs {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 24px;
+    }
+
+    .tab-btn {
+      flex: 1;
+      padding: 16px 0;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 1rem;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1.1rem;
+      box-shadow: 0 2px 8px rgba(56,196,231,0.06);
+      outline: none;
+      transition: box-shadow 0.2s, background 0.2s, border-color 0.2s, transform 0.15s;
+      margin-bottom: 0;
+    }
+
+    .tab-btn:hover, .tab-btn:focus {
+      background-color: #e0f7fa;
+      border-color: #38c4e7;
+      box-shadow: 0 4px 16px rgba(56,196,231,0.13);
+      transform: scale(1.04);
+    }
+
+    .tab-btn:active {
+      background-color: #b2ebf2;
+      border-color: #38c4e7;
+      box-shadow: 0 2px 8px rgba(56,196,231,0.10);
+      transform: scale(0.98);
+    }
+
+    
+
+    .payment-form {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: flex-end;
+    }
+
+    .form-group {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group label {
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+
+    .form-group input {
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .search-btn {
+      padding: 12px 24px;
+      background: #38c4e7;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  
